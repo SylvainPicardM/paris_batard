@@ -1,8 +1,10 @@
+import { Typography } from '@mui/material';
+import { Container } from '@mui/system';
 
 export default function JoinGame(props){
     return(
-        <div>
-            <h1>Rejoindre Partie</h1>
-        </div>
+        <Container>
+            <Typography variant="h1" component="div">Rejoindre une Partie</Typography>
+        </Container>
     )
 }
